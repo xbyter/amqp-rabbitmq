@@ -1,5 +1,5 @@
 <?php
-namespace Examples;
+namespace Xbyter\Amqp\Examples;
 
 use Xbyter\Amqp\Consumer;
 

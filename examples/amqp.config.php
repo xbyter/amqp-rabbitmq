@@ -19,17 +19,17 @@ return [
             'close_on_destruct'  => false,
             'declarer'           => [
                 'exchanges' => [
-                    \Examples\DefaultConn\Dclarer\Exchanges\DemoExchange::class,
+                    \Xbyter\Amqp\Examples\DefaultConn\Dclarer\Exchanges\DemoExchange::class,
                 ],
                 'queues'    => [
-                    \Examples\DefaultConn\Dclarer\Queues\DemoQueue::class,
+                    \Xbyter\Amqp\Examples\DefaultConn\Dclarer\Queues\DemoQueue::class,
                 ],
                 'binds'     => [
                     [
-                        \Examples\DefaultConn\Dclarer\Exchanges\DemoExchange::class,
-                        \Examples\DefaultConn\Dclarer\Queues\DemoQueue::class,
+                        \Xbyter\Amqp\Examples\DefaultConn\Dclarer\Exchanges\DemoExchange::class,
+                        \Xbyter\Amqp\Examples\DefaultConn\Dclarer\Queues\DemoQueue::class,
                         //routing keys
-                        [\Examples\DefaultConn\Producers\DemoProducer::ROUTING_KEY],
+                        [\Xbyter\Amqp\Examples\DefaultConn\Producers\DemoProducer::ROUTING_KEY],
                     ],
                 ],
             ],
@@ -37,6 +37,6 @@ return [
     ],
     //用于启动消费
     'consumers'   => [
-        \Examples\DefaultConn\Consumers\DemoConsumer::class,
+        \Xbyter\Amqp\Examples\DefaultConn\Consumers\DemoConsumer::class,
     ],
 ];

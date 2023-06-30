@@ -1,9 +1,9 @@
 <?php
 
-namespace Examples\DefaultConn\Producers;
+namespace Xbyter\Amqp\Examples\DefaultConn\Producers;
 
 
-use Examples\DefaultConn\BaseDefaultProducerMessage;
+use Xbyter\Amqp\Examples\DefaultConn\BaseDefaultProducerMessage;
 
 class DemoProducer extends BaseDefaultProducerMessage
 {

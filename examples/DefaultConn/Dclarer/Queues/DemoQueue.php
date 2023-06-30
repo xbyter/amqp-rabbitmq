@@ -1,6 +1,6 @@
 <?php
 
-namespace Examples\DefaultConn\Dclarer\Queues;
+namespace Xbyter\Amqp\Examples\DefaultConn\Dclarer\Queues;
 
 use Xbyter\Amqp\Declarer\QueueDeclarer;
 

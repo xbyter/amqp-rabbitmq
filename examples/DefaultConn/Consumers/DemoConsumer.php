@@ -1,9 +1,9 @@
 <?php
 
-namespace Examples\DefaultConn\Consumers;
+namespace Xbyter\Amqp\Examples\DefaultConn\Consumers;
 
 
-use Examples\DefaultConn\BaseDefaultConsumerMessage;
+use Xbyter\Amqp\Examples\DefaultConn\BaseDefaultConsumerMessage;
 use Xbyter\Amqp\Enum\ConsumeResultEnum;
 
 

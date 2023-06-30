@@ -1,6 +1,6 @@
 <?php
 
-namespace Examples\DefaultConn\Dclarer\Exchanges;
+namespace Xbyter\Amqp\Examples\DefaultConn\Dclarer\Exchanges;
 
 use Xbyter\Amqp\Declarer\ExchangeDeclarer;
 use Xbyter\Amqp\Enum\ExchangeTypeEnum;

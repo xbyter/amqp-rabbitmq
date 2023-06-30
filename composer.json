@@ -20,7 +20,7 @@
   "autoload": {
     "psr-4": {
       "Xbyter\\Amqp\\": "src/",
-      "Examples\\": "examples/"
+      "Xbyter\\Amqp\\Examples\\": "examples/"
     }
   },
   "require-dev": {

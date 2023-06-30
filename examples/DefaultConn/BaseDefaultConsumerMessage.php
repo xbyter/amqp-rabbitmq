@@ -1,6 +1,6 @@
 <?php
 
-namespace Examples\DefaultConn;
+namespace Xbyter\Amqp\Examples\DefaultConn;
 
 
 use Xbyter\Amqp\BaseConsumerMessage;
